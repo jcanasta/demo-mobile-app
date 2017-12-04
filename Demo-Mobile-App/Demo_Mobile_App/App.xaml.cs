@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo_Mobile_App.Views.Core;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace Demo_Mobile_App
         {
             InitializeComponent();
 
-            MainPage = new Demo_Mobile_App.MainPage();
+            MainPage = new MasterDrawer();
         }
 
         protected override void OnStart()

@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xamarin.Forms;
 
-namespace Demo_Mobile_App
+using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+
+namespace Demo_Mobile_App.Views.Settings
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Settings : ContentPage
     {
-        public MainPage()
+        public Settings()
         {
             InitializeComponent();
         }
